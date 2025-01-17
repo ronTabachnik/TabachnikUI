@@ -36,7 +36,7 @@ public struct TextInput: View {
         borderColor: Color = .black,
         borderRadius: CGFloat = 8,
         showFullBorder: Bool = true,
-        font: UIFont,
+        font: UIFont = .systemFont(ofSize: 16),
         fontHeight: CGFloat = 20,
         borderHeight: CGFloat = 50,
         showOverlayText: Bool = true,
